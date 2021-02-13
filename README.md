@@ -24,7 +24,7 @@ docker run \
 --rm \
 --env DISPLAY=host.docker.internal:0 \
 --hostname ireport \
---volume ${PWD}/reports:/reports \
+--volume ${PWD}/reports:/root/reports \
 ralexsander/ireport
 ```
 
