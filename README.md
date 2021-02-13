@@ -1,6 +1,11 @@
-# iReport 5.6.0
+# iReport Designer
 
-iReport version 5.6.0 running on Java 6.
+iReport versions 3.7.3 and 5.6.0 running on Java 6.
+
+## Supported versions
+
+* 5.6.0, latest
+* 3.7.3
 
 ## How to Run
 
@@ -25,7 +30,7 @@ docker run \
 --env DISPLAY=host.docker.internal:0 \
 --hostname ireport \
 --volume ${PWD}/reports:/root/reports \
-ralexsander/ireport
+ralexsander/ireport:5.6.0
 ```
 
 ## Motivations
